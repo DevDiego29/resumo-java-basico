@@ -14,7 +14,7 @@ Em 2009 a Sun Microsystems foi vendida para a Oracle por US$7,4 bilhões.
 
 Atualmente, a Linguagem Java pode ser encontrada em chips de cartão de crédito, discos de blu-ray, vídeo games (PS4 roda Java), leitores de e-books (Kindle roda Java), smartphones (Android roda Java), TV digital (o padrão Ginga é feito em Java), relógios inteligentes (Moto 360 roda Java) e até mesmo no programa para a Declaração de Imposto de Renda.
 
-📑CARACTERÍSTICAS DO JAVA
+📑 CARACTERÍSTICAS DO JAVA
 
 1. **Simples e fácil compreensão.**
 2. **Orientada a objetos (OO):**
@@ -32,6 +32,33 @@ Atualmente, a Linguagem Java pode ser encontrada em chips de cartão de crédito
 6. **Segura:** Fornece recursos de segurança para os programadores, recursos de criptografia e decriptografia para proteger seus dados contra espionagem e adulteração na Internet.
 7. **Interpretada e compilada:** os programas Java são compilados para gerar arquivos de bytecode e a JVM interpreta o arquivo de bytecode durante a execução. 
 8. **Multi-thread:** thread é um subprocesso leve e independente de um programa em execução, ou seja, processo, que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente, conseguindo nos proporcionar uma alta perfomace de execução.
+
+💻 PLATAFORMAS E COMPONENTES DA PLATAFORMA
+
+Com a linguagem Java, conseguimos desenvolver softwares para várias finalidades de negócio. Seja uma aplicação desktop, uma distribuição web, eletrônicos e dispositivos móveis. Isso graças a distribuição dos recursos da linguagem, através de plataformas bem estruturadas. 
+
+**JSE (Java Standard Edition):** É a base da plataforma. Inclui o ambiente de execução e as bibliotecas comuns, sendo direcionado a aplicações para PCs e servidores. O toolkit Swing, por exemplo, é usado para desenvolver softwares com interface gráfica para desktop.
+
+**JEE (Java Enterprise Edition):** A edição voltada para o desenvolvimento de aplicações corporativas e para a Web. Possui diversos frameworks, como JPA (Java Persistence API), JSP (Java Server Pages), etc.
+
+**JME (Java Micro Edition):** É a edição para o desenvolvimento de aplicações para dispositivos móveis e embarcados.
+
+**JFX (Java FX):** JavaFX é uma tecnologia de software que, ao ser combinada com Java, permite a criação e implantação de aplicações de aparência moderna e conteúdo rico de áudio e vídeo.
+
+O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE). Isso significa que, para desenvolver aplicações, é necessário ter instalado o JDK. Mas para apenas iniciar o executável (.jar), simplesmente a instalação da JRE será o suficiente.
+
+JDK (Java Development Kit) - Kit de Desenvolvimento Java
+
+Composto pelo compilador (javac + JVM);
+Visualizador de applets, bibliotecas de desenvolvimento;
+Programa para composição de documentação (javadoc);
+Depurador básico de programas e versão da JRE.
+
+JRE (Java Runtime Environment) - Ambiente de Execução Java
+
+É composta de uma JVM e por um conjunto de bibliotecas, que permite a execução de softwares em Java;
+
+Apenas permite a execução de programas, ou seja, é necessário o programa Java compilado pela JDK gerando os arquivos .class.
 
 🔍 REFERÊNCIAS
 
