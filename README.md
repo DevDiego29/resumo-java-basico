@@ -58,11 +58,71 @@ JDK (Java Development Kit) - Kit de Desenvolvimento Java:
 + Programa para composição de documentação (javadoc);
 + Depurador básico de programas e versão da JRE.
 
-JRE (Java Runtime Environment) - Ambiente de Execução Java: É composta de uma JVM e por um conjunto de bibliotecas, que permite a execução de softwares em Java. Apenas permite a execução de programas, ou seja, é necessário o programa Java compilado pela JDK gerando os arquivos .class.
+                         JDK = JRE + ferramentas de desenvolvimento
 
+JRE (Java Runtime Environment) - Ambiente de Execução Java: É composta de uma JVM e por um conjunto de bibliotecas, que permite a execução de softwares em Java. 
+
+                                   JRE = JVM + bibliotecas
+
+<div align="center">
+<img src=https://github.com/DevDiego29/resumo-java-basico/assets/106121812/0f9e152d-4132-4ef8-b756-d11bb4e832b6 width="700px" />
+</div>
+
+O processo de desenvolvimento é muito simples, todo código-fonte escrito em arquivo texto possui extensão .java, este arquivo é compilado com o javac gerando o arquivo .class, o arquivo .class não contém código de máquina nativo, e sim o bytecodes.
+
+A máquina virtual Java (JVM) é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina. A JVM é responsável pelo gerenciamento doa aplicativos na medidade que são executados. Graças a JVM, os programas escritos em Java podem funcionar em qualquer plataforma. 
+
+<div align="center">
+<img src=https://github.com/DevDiego29/resumo-java-basico/assets/106121812/83e26764-c52e-4aa9-a034-a4c870da7641 width="700px" />
+</div>
+
+🦴 ANATOMIA DAS CLASSES 
+
+A escrita de códigos de um programa é feita através da composição de, palavras pré-definidas pela linguagem, com as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
+
+
+<div align="center">
+<img src= https://github.com/DevDiego29/resumo-java-basico/assets/106121812/dc9836e2-1654-4b34-9326-0e8cdfed7480 width="700px" />
+</div>
+
++ 99,9% das nossas classes iniciarão com **public class**;
++ Toda classe precisa de nome, exemplo **MinhaClasse**;
++ O nome do arquivo deve ser idêntico ao nome da classe pública;
++ Após o nome, definir o corpo **{ }** , onde iremos compor nossas classes com atributos e métodos.
++ Dentro de uma aplicação, recomenda-se que somente uma classe possua o método main, responsável por iniciar todo o nosso programa.
++ O método main recebe seu nome main, sempre terá a visibilidade public, será difinido como static, não retornará nenhum valor com void e receberá um parâmetro do tipo array de caracteres String[].
+
+Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções:
+
++ **Arquivo .java**: Todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
+  
+                         Calculadora.java CalculadoraCientifica.java
+  
++ Nome da classe no arquivo: A classe deve possuir o mesmo nome do arquivo.java.
++ Nome de variável: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".
++ Deve conter apenas letras, _ (underline), $ ou os números de 0 a 9;
++ Deve obrigatoriamente se iniciar por uma letra (preferencialmente), _ ou $, jamais com número;
++ Deve iniciar com uma letra minúscula;
++ Não pode conter espaços;
++ Não podemos usar palavras-chave da linguagem;
++ O nome deve ser único dentro de um escopo.
+
+Para declarar variáveis e métodos devemos seguir a estrutura:
+
+                     tipo NomeDaVariavel = atribuição de valor (opcional em alguns casos);
+                            Exemplo: int idade = 20; double salario = 2700;
+                     TipoRetorno NomeObjetivoInfinitivo Parametro(s)
+                            Exemplo: int somar(int numeroUm, int numeroDois){}
+
+Uma variável deve ser clara, sem abreviações ou definição sem sentido, uma variável é sempre no singular, exceto quando se referir a um array ou coleção.
+
+Os métodos deverão ser nomeados como verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta, a partir da segunda palavra.
 
 🔍 REFERÊNCIAS
 
-Um pouco mais da história sobre Java no canal do [Guanabara Curso em Vídeo](https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
++ Um pouco mais da história sobre Java no canal do [Guanabara Curso em Vídeo](https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
 
++ Introdução às plataformas JAVA [DEVMEDIA](https://www.devmedia.com.br/introducao-as-plataformas-java/29544)
+
++ Bibioteca JAVA (https://docs.oracle.com/javase/8/docs/api/)
 
